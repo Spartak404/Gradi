@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.container-1 {
+    max-width: 970px;
+    height: 732px;
+    width: 100%;
+    /* padding: 0 15px; */
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #333333;
+}
+
+/* Вверхный меню */
+.Gradi__Logo {
+    padding: 19px 0;
+    display: flex;
+    gap: 39px;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    }
+
+/* Сверху слева лого */
+.logo {
+    margin-top: 25px;
+}
+
+/* Навигатор */
+    .nav {
+        display: flex;
+        gap: 39px;
+    }
+    
+    .nav a {
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 1.2;
+}
+
+.hero__title h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.3;
+    text-align: center;
+    padding-top: 83px;
+}
+
+.hero__title h3 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    padding-top: 11px;
+
+}
+
+.hero__title_text {
+    margin-top: 40px;
+    /* background: #3333330F; */
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 116px;
+    height: 293px;
+}
+
+.hero__title_text h1 {
+
+font-size: 40px;
+font-weight: 600;
+line-height: 1.1;
+}
+
+.hero__title_text p {
+
+font-size: 18px;
+font-weight: 400;
+line-height: 1.1;
+letter-spacing: 0.02em;
+
+}
+
+.title__text {
+    padding-top: 84px;
+
+    h1 {
+    
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+
+    }
+
+    p {
+    
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #00000080;
+    }
+}
+
+.tile__photo {
+    padding-top: 55px;
+    display: flex;
+    gap: 200px;
+    text-align: center;
+}
+
+.text h1 {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.text p {
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #00000080;
+}
+
+.title__photo_one {
+    padding-top: 40px;
+    display: flex;
+    gap: 200px;
+    text-align: center;
+}
+
+.text-1 h1 {
+
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.2;
+
+}
+
+.text-1 p {
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    color: #00000080;
+}
